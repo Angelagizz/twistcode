@@ -1,0 +1,48 @@
+.container {
+    margin: 40px;
+}
+.address input {
+    width: 100%;
+    height: 5.5vh;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 20px;
+}
+.location {
+    display: flex;
+    
+}
+.country select {
+    height: 6vh;
+    width: 30vw;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    padding-left: 20px;
+    color: grey;
+    font-size: 16px;
+}
+.country {
+    margin-right: 30px;
+}
+.province select {
+    height: 6vh;
+    width: 30vw;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    padding-left: 20px;
+    color: grey;
+    font-size: 16px;
+}
+
+@media (max-width: 490px) {
+    .location {
+        flex-direction: column;
+    }
+    .country select {
+        width: 65vw;
+    }
+    .province select {
+        width: 65vw;
+    }
+}

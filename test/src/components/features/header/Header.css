@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: center;
+    border-top: solid 7px #ffcb01;
+    width: 100%;
+}
+.language {
+    position: absolute;
+    right: 10%;
+    top: 4%;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+@media (max-width: 780px) {
+    .header {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 490px) {
+    .header {
+        text-align: center;
+    }
+    .language {
+        position: relative;
+        text-align: center;
+        right: 0;
+    }
+}

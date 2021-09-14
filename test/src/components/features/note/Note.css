@@ -1,0 +1,32 @@
+.note-container {
+    margin: 40px;
+}
+.note-container h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+.privacy input {
+    border: 1px solid #ffcd01;
+    width: 15px;
+    margin-right: 10px;
+}
+.privacy {
+    margin-top: 5vh;
+}
+.button {
+    background: #ffcd01;
+    width: 100%;
+    max-width: 12vw;
+    margin-top: 5vw;
+    padding: 15px;
+    justify-content: right;
+    align-items: right;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media (max-width: 680px) {
+    .button {
+        max-width: 35vw;
+    }
+}

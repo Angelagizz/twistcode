@@ -1,0 +1,109 @@
+.detail {
+    width: 100%;
+}
+.message {
+    padding-top: 2vh;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    background: #ffcb01;
+    width: 100%;
+    height: 6vh;
+    padding: auto;
+}
+.detail_list {
+    margin: 40px;
+}
+.checkbox h6 {
+    font-size: 26px;
+}
+.subtitle {
+    font-size: 18px;
+    font-weight: bold;
+}
+.title input {
+    width: 15px;
+    margin: 10px;
+    border: 1px solid #ffcb01;
+}
+.title {
+    font-size: 18px;
+}
+.user {
+    display: flex;
+}
+.user input {
+    width: 30vw;
+    height: 5.5vh;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 20px;
+}
+.lastname {
+    margin-right: 30px;
+}
+.lastname p {
+    font-weight: bold;
+    font-size: 18px;
+}
+.lastname span {
+    color: red;
+}
+.firstname p {
+    font-weight: bold;
+    font-size: 18px;
+}
+.firstname span {
+    color: red;
+}
+.number_content {
+    display: flex;
+}
+.number p {
+    font-weight: bold;
+    font-size: 18px;
+}
+.number span {
+    color: red;
+}
+.flag {
+    margin-right: 20px;
+}
+.flag button {
+    height: 5vh;
+    border: 1px solid darkgrey;
+    background: white;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: grey;
+    font-size: 16px;
+}
+.phone input {
+    height: 4.4vh;
+    width: 25vw;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+/* .firstname {
+    margin-: 10px;
+} */
+@media (max-width: 500px) {
+    .phone input {
+        width: 40vw;
+    }
+    .lastname input {
+        width: 35vw;
+    }
+    .firstname input {
+        width: 35vw;
+    }
+    .flag button {
+        width: 40vw;
+    }
+    .message {
+        font-size: 16px;
+    }
+}
